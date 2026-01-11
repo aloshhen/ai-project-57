@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --tg-theme-bg-color: #f5f5dc;
+  --tg-theme-text-color: #4b2e2e;
+}
+
+body {
+  background-color: var(--tg-theme-bg-color);
+  color: var(--tg-theme-text-color);
+}
+
+.dark {
+  --tg-theme-bg-color: #4b2e2e;
+  --tg-theme-text-color: #f5f5dc;
+}
+
+.dark {
+  background-color: var(--tg-theme-bg-color);
+  color: var(--tg-theme-text-color);
+}
